@@ -1,0 +1,25 @@
+header {
+  display: none; 
+}
+.topnav {
+  overflow: hidden;
+  background-color: black; 
+}
+.topnav li {
+  float: left;
+}
+.topnav li a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container > div:nth-child(1),
+.flex-container > div:nth-child(3) {
+  flex: 30%; 
+}
+.flex-container > div:nth-child(2) {
+  flex: 70%; 
+}
